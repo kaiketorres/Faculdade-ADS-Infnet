@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    /* Teste para ver se funcinou a troca de class  */
+    .listaSelecionada{
+      background-color: blue; 
+    }
+    
+  </style>
+</head>
+
+<body>
+  <ol class="lista">
+    <li>JS</li>
+    <li id="item">HTML</li>
+    <li>CSS</li>
+  </ol>
+ <script>
+  let html = document.getElementById("item")
+
+html.addEventListener("click" ,trocarClass)
+
+function trocarClass(){
+  let Oitem = this.parentNode;
+  Oitem .classList.replace("lista","listaSelecionada")
+}
+ </script>
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

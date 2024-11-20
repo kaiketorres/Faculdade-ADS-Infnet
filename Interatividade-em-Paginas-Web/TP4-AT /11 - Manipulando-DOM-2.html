@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <span id="escolhido"></span>
+  <ul>
+    <li id="brasil">Seleção Brasileira</li>
+    <li id="argentina">Seleção Argentina</li>
+  </ul>
+  <script>
+    const brasil = document.getElementById('brasil');
+    const argentina = document.getElementById('argentina');
+    const escolhido = document.getElementById('escolhido');
+
+    brasil.addEventListener('click', function () {
+      escolhido.textContent = brasil.textContent;
+      escolhido.style.border = '1px solid green';
+    });
+
+    argentina.addEventListener('click', function () {
+      escolhido.textContent = argentina.textContent;
+      escolhido.style.border = '1px solid blue';
+    });
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

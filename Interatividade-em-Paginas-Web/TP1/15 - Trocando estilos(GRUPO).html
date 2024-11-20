@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>15 - Trocando estilos</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="conteudo">Infnet</div>
+  <script>
+    let conteudoDiv = document.querySelector(".conteudo");
+function alterarEstilos() {
+    conteudoDiv.style.backgroundColor = "blue"; 
+    conteudoDiv.style.color = "white";          
+    conteudoDiv.style.borderColor = "orange"; 
+    conteudoDiv.style.borderWidth = "2px";      
+    conteudoDiv.style.borderStyle = "solid";    
+    let larguraAtual = parseInt(getComputedStyle(conteudoDiv).width); 
+    let alturaAtual = parseInt(getComputedStyle(conteudoDiv).height);
+    conteudoDiv.style.width = (larguraAtual + 2) + "px";
+    conteudoDiv.style.height = (alturaAtual + 2) + "px"; 
+}
+conteudoDiv.addEventListener("click", alterarEstilos);
+
+  </script>
+
+  
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

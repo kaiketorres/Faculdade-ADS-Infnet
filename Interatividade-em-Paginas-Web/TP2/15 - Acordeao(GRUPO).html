@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+ <script>
+  
+ </script>
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    
+    .content {
+      display: none;
+    }
+    
+    .accordion-item.active .content {
+      display: block;
+    }
+  </style>
+</head>
+
+  <body>
+    <div class="accordion">
+      <div class="accordion-item">
+        <h3>Item 1</h3>
+        <p class="content">Conteúdo do Item 1</p>
+      </div>
+      <div class="accordion-item">
+        <h3>Item 2</h3>
+        <p class="content">Conteúdo do Item 2</p>
+      </div>
+      <div class="accordion-item">
+        <h3>Item 3</h3>
+        <p class="content">Conteúdo do Item 3</p>
+      </div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const accordionItems = document.querySelectorAll('.accordion-item');
+      
+        accordionItems.forEach(item => {
+          item.addEventListener('click', function() {
+            accordionItems.forEach(i => {
+              if (i !== item) {
+                i.classList.remove('active');
+              }
+            });
+      
+            item.classList.toggle('active');
+          });
+        });
+      });
+    </script>
+  </body>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

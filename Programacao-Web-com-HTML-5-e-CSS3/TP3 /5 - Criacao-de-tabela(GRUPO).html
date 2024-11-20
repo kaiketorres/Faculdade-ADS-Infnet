@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    @font-face {
+      font-family: 'Montserrat-Light';
+      src: url(fonts/Montserrat-Light.ttf.woff);
+  }
+  table{
+      border: 1px solid #000000;
+      border-collapse: collapse;
+      font-family: 'Montserrat-Light';
+      font-weight: bold;
+  }
+  tr:nth-child(odd) {
+    background-color: #F3F3F3;
+    color: #01987A;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    font-weight: bolder;
+  }
+  table .header{
+      color: white;
+      background-color: #01987A;
+  }
+  th{
+      background-color: #01987A;
+      padding: 10px;
+  }
+  td{
+      padding:10px 10px 10px 30px;
+  }
+  .numbers{
+      padding: 8px;
+  }
+  /*.content:hover{
+      color: #01856a;
+      font-weight: bold;
+      background-color: #F3F3F3;
+  }*/
+  
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr class="header">
+      <th>Rank</th>
+      <th>Name</th>
+      <th>Points</th>
+      <th>Team</th>
+    </tr>
+    <tr class="content">
+      <td class="numbers">1</td>
+      <td>Domenic</td>
+      <td>88,110</td>
+      <td>dcode</td>
+    </tr>
+    <tr class="content">
+      <td class="numbers">2</td>
+      <td>Sally</td>
+      <td>72,400</td>
+      <td>Students</td>
+    </tr>
+    <tr class="content">
+      <td class="numbers">3</td>
+      <td>Nick</td>
+      <td>52,300</td>
+      <td>dcode</td>
+    </tr>
+  </table>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Validação de Formulário</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form>
+    <label for="nome">Nome:</label>
+    <input id="nome" name="nome" type="text"><br>
+
+    <div class="areas">
+      <label for="rh">Recursos Humanos</label>
+      <input id="rh" name="area" type="checkbox">
+      <label for="seguranca">Segurança</label>
+      <input id="seguranca" name="area" type="checkbox"><br>
+    </div>
+
+    <label for="cpf">CPF:</label>
+    <input id="cpf" name="cpf" type="text"><br>
+
+    <label for="data">Data de agendamento:</label>
+    <input id="data" name="data" type="text"><br>
+
+    <label for="endereco">Endereço:</label>
+    <input id="endereco" name="endereco" type="text"><br>
+
+    <input type="button" id="btnCadastrar" onclick="validar();" value="Cadastrar">
+  </form>
+
+  <script>
+    function validar() {
+      let isValid = true;
+      let errors = [];
+  
+     
+      const nome = document.getElementById('nome').value.trim();
+      if (nome.length <= 3 || nome.length >= 10) {
+          isValid = false;
+          errors.push("Nome deve ter mais de 3 caracteres e menos de 10.");
+      }
+  
+     
+      const areas = document.querySelectorAll('input[name="area"]:checked');
+      if (areas.length === 0) {
+          isValid = false;
+          errors.push("Pelo menos uma área deve ser selecionada.");
+      }
+  
+    
+      const cpf = document.getElementById('cpf').value.replace(/[.-]/g, '').trim();
+      if (cpf.length !== 11) {
+          isValid = false;
+          errors.push("CPF deve conter 11 caracteres após remover os caracteres especiais.");
+      }
+  
+      
+      const data = document.getElementById('data').value.trim();
+      if (!data.includes('/')) {
+          isValid = false;
+          errors.push("Data de agendamento deve conter o símbolo '/'.");
+      }
+  
+     
+      const endereco = document.getElementById('endereco').value.trim().toLowerCase();
+      if (!endereco.includes('rua')) {
+          isValid = false;
+          errors.push("Endereço deve conter a palavra 'rua'.");
+      }
+  
+    
+      if (isValid) {
+          alert("Formulário válido!");
+      } else {
+          alert("Formulário inválido:\n" + errors.join("\n"));
+      }
+  }
+  
+  </script>
+</body>
+
+</html>

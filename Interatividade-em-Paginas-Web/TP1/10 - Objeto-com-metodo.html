@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+
+  <script>
+    let circulo = {
+      raio: parseFloat(prompt("Por favor, informe o raio do círculo:")),
+    
+      calcularCircunferencia: function() {
+        return 2 * Math.PI * this.raio;
+      },
+    
+      calcularArea: function() {
+        return Math.PI * Math.pow(this.raio, 2);
+      }
+    };
+    
+    
+    console.log("A circunferência do círculo é: " + circulo.calcularCircunferencia());
+    
+    console.log("A área do círculo é: " + circulo.calcularArea());
+    
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

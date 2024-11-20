@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    span {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script>
+    let span1 = document.createElement('span')
+    let span2 = document.createElement('span')
+
+    document.body.appendChild(span1)
+    document.body.appendChild(span2)
+
+    span1.innerHTML = 'snap1'
+    span2.innerHTML = 'snap2'
+
+    window.onload = function () {
+      let spans = document.querySelectorAll('span');
+
+      spans.forEach(function (span) {
+
+        span.style.color = 'green';
+      })
+    }
+
+
+  </script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #00635A;
+    width: 100vw;
+    position: fixed;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-align: center;
+    gap: 20px;
+}
+
+nav li{
+    list-style: none;
+    padding: 10px 0px 10px 0px;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+body{
+    background-color: #009688;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+main h2{
+    line-height: 50px;
+}
+
+
+.move_inseto{
+    display: flex;
+    width: 100%;
+}
+
+.inseto{
+    display: flex;
+    justify-content: center;
+    background-color: #32A89C;
+    height: 900px;
+    width: 50%;
+}
+
+.conf_inseto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.conf_inseto h1{
+    text-decoration: underline;
+}
+
+.img_inseto{
+    background: url(img/md_jerry-v9wN8wCPLHY-unsplash.png) no-repeat center center / cover;
+    height: 900px;
+    width: 50%;
+}
+
+
+.move_morfologia_01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    background-color: #009688;
+}
+
+.morfologia_01{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.morfologia_01 h1{
+    font-size: 40px;
+}
+
+.morfologia_01 p{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.move_morfologia_02{
+    display: flex;
+    justify-content: center;
+}
+
+.back_me{
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1f9185;
+}
+
+
+.move_morfologia_interna_01{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #32A89C;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.move_morfologia_interna_01 h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.move_morfologia_interna_02{
+    display: flex;
+}
+
+.back_mi{
+    padding: 20px;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.back_footer{
+    background-color: #00635A;
+    height: 20px;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 920px){
+
+    .move_inseto{
+        flex-direction: column;
+    }
+    
+    .inseto, .img_inseto{
+        width: 100%;
+    }
+
+    .move_morfologia_02{
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .back_me{
+        width: 80%;
+    }
+
+    .move_morfologia_interna_02{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .back_mi{
+      
+        width: 80%;
+        
+    }
+
+  
+} 
+   
+
+
+
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    html {
+      height: 100%;
+      width: 100%;
+    }
+    
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    div {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="/submit" method="post">
+      <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+      </div>
+      <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+          <label for="tipo">Tipo:</label>
+          <select id="tipo" name="tipo" required>
+              <option value="professor">Professor</option>
+              <option value="aluno">Aluno</option>
+              <option value="administrativo">Administrativo</option>
+          </select>
+      </div>
+      <div>
+          <label for="idade">Idade:</label>
+          <input type="number" id="idade" name="idade" min="0" required>
+      </div>
+      <button type="submit">Enviar</button>
+  </form>
+  <script>
+    
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

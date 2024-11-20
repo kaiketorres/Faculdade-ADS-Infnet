@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+  <p id="resultado"></p>
+  <script>
+
+    function calcularResultado(p1, p2) {
+
+      const media = (parseFloat(p1) + parseFloat(p2)) / 2;
+
+
+      const resultado = document.getElementById("resultado");
+
+
+      if (media >= 5) {
+        resultado.textContent = "Aprovado";
+      } else {
+        resultado.textContent = "Reprovado";
+      }
+    }
+
+
+    const p1 = prompt("Digite a nota P1:");
+    const p2 = prompt("Digite a nota P2:");
+
+
+    calcularResultado(p1, p2);
+
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

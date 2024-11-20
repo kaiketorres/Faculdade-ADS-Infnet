@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+
+  <script>
+    let contador = 0;
+
+    while (true) {
+      let random = Math.random() * 10;
+      let random2 = Math.random() * 10;
+      if (random < 7.5) {
+        contador++;
+        console.log("Contador: " + contador);
+      } else if (random2 > 9) {
+        console.log("Saindo do programa!")
+        break;
+      } else {
+        console.log("Não Incrementou")
+      }
+    }
+
+
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

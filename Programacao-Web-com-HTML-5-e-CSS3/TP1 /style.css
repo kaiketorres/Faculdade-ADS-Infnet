@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #4b0082; 
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #ffa500; 
+}
+
+main {
+    padding: 20px 0;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #f0f;
+    padding-bottom: 10px;
+    color: #f0f;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background: #222;
+    text-align: center;
+    padding: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #f0f;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f;
+    background-color: #222;
+    color: #fff;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #f0f;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #c00;
+}
+
+.photo{
+    border: 1px solid #f0f;
+    background: url(kaike.jpg) no-repeat center center/ cover;
+    width: 150px;
+    height: 150px;
+    background-color: #c00;
+}

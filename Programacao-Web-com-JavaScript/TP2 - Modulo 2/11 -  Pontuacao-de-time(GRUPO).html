@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+  
+  <script>
+    function timeFutebol(nomeDoTime, numeroVitorias, numeroEmpates, numeroDerrotas){
+      let totalDePontos = (numeroVitorias * 3) + (numeroEmpates * 1);
+      let totalDeJogos = numeroVitorias + numeroEmpates + numeroDerrotas;
+      let mediaDePontos = totalDePontos / totalDeJogos;
+    
+      console.log(`O time ${nomeDoTime} possui ${totalDePontos} pontos e uma média de ${mediaDePontos.toFixed(2)} pontos por jogo.`);
+    }
+    
+    let nomeDoTime = prompt("Informe o nome do time: ");
+    let numeroVitorias = parseInt(prompt("Informe o número de vitórias: "));
+    let numeroEmpates = parseInt(prompt("Informe o número de empates: "));
+    let numeroDerrotas = parseInt(prompt("Informe o número de derrotas: "));
+    
+    timeFutebol(nomeDoTime, numeroVitorias, numeroEmpates, numeroDerrotas);
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+      background-color: #869960;
+    }
+    table{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    table .header{
+        background-color: #869961;
+        color: white;
+    }
+    th{
+        text-align: left;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    td{
+        border: 1px solid black;
+        padding: 10px;
+    
+    }
+    td:nth-child(2), td:nth-child(3) {
+        text-align: center;
+    }
+    .background{
+        background-color: #DCDCDC;
+    }
+    tfoot{
+        text-align: right;
+    }
+    .gray {
+      background-color: #f2f2f2
+    }
+    
+    
+  </style>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <table>
+    <tr class="header">
+      <th>Item Name</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Potatoes</td>
+      <td>51</td>
+      <td class="gray">1.000</td>
+    </tr>
+    <tr class="background">
+      <td>Nuts</td>
+      <td>20</td>
+      <td>$5</td>
+    </tr>
+    <tr>
+      <td>Onions</td>
+      <td>4</td>
+      <td class="gray">$3.000</td>
+    </tr>
+    <tr class="background">
+      <td>Very long awkwardly named yed <br> still delicious item here</td>
+      <td>4</td>
+      <td>$3.000</td>
+    </tr>
+    <tr>
+      <td>Carrots</td>
+      <td>12</td>
+      <td class="gray">$2.99</td>
+    </tr>
+    <tfoot>
+      <tr>
+        <td colspan="2"><strong>Total Price</strong></td>
+        <td class="gray">$33.79</td>
+      </tr>
+    </tfoot>
+  </table>
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

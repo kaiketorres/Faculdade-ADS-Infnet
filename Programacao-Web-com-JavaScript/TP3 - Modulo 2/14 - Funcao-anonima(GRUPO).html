@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+  <div>
+    <p id="resultado"></p>
+  </div>
+  <script>
+    let calcularFatorial = function (numero) {
+      let fatorialRecursivo = function (num) {
+        if (num === 0) {
+          return 1;
+        } else {
+          return num * fatorialRecursivo(num - 1);
+        }
+      };
+
+      return fatorialRecursivo(numero);
+    };
+
+
+    let numero = parseInt(prompt("Por favor, informe um número:"));
+
+    let fatorial = calcularFatorial(numero);
+
+    let resultado = document.getElementById("resultado");
+    resultado.textContent = "O fatorial de " + numero + " é: " + fatorial;
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

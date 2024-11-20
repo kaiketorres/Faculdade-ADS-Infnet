@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+  <div>
+    <h1></h1>
+  </div>
+  <script>
+    const calcularQuadrado = (valor1, valor2) => {
+      const quadrado1 = valor1 ** 2;
+      const quadrado2 = valor2 ** 2;
+      return `O quadrado de ${valor1} é ${quadrado1}, e o quadrado de ${valor2} é ${quadrado2}`;
+  };
+  
+  
+  const valor1 = prompt("Digite o primeiro valor:");
+  const valor2 = prompt("Digite o segundo valor:");
+  
+  
+  const resultado = calcularQuadrado(parseFloat(valor1), parseFloat(valor2));
+  
+  
+  const divResultado = document.getElementById("resultado");
+  const h1 = document.createElement("h1");
+  h1.textContent = resultado;
+  
+  
+  divResultado.appendChild(h1);
+  
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

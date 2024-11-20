@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+
+</head>
+
+<body>
+    Hello world
+    <script>
+        function calcularDiagnostico(rendaMensal, gastosMoradia, gastosEducacao, gastosTransporte) {
+
+            const percentualMoradia = (gastosMoradia / rendaMensal) * 100;
+            const percentualEducacao = (gastosEducacao / rendaMensal) * 100;
+            const percentualTransporte = (gastosTransporte / rendaMensal) * 100;
+
+
+            const dentroDoOrcamentoMoradia = percentualMoradia <= 30;
+            const dentroDoOrcamentoEducacao = percentualEducacao <= 20;
+            const dentroDoOrcamentoTransporte = percentualTransporte <= 15;
+
+
+            let diagnostico = "Diagnóstico:\n";
+
+            diagnostico += `Moradia: ${dentroDoOrcamentoMoradia ? "Dentro do orçamento" : "Fora do orçamento"} (${percentualMoradia.toFixed(2)}% da renda)\n`;
+            diagnostico += `Educação: ${dentroDoOrcamentoEducacao ? "Dentro do orçamento" : "Fora do orçamento"} (${percentualEducacao.toFixed(2)}% da renda)\n`;
+            diagnostico += `Transporte: ${dentroDoOrcamentoTransporte ? "Dentro do orçamento" : "Fora do orçamento"} (${percentualTransporte.toFixed(2)}% da renda)\n`;
+
+            return diagnostico;
+        }
+
+
+        const rendaMensal = 3000;
+        const gastosMoradia = 900;
+        const gastosEducacao = 500;
+        const gastosTransporte = 400;
+
+        console.log(calcularDiagnostico(rendaMensal, gastosMoradia, gastosEducacao, gastosTransporte));
+
+    </script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

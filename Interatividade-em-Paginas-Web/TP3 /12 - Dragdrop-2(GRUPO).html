@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    
+    .caixinha{
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      margin-right: 5px;
+      border: 2px solid black;
+    }
+    
+    .container{
+      width: 250px;
+      height: 150px;
+      border: 1px solid black;
+    }
+    
+    .corVerde{
+      background-color: green;
+    }
+    
+    .corRoxa{
+      background-color: purple;
+    }
+    
+    .corLaranja{
+      background-color: orange;
+    }
+    
+    .corVermelha{
+      background-color: red;
+    }
+    
+    #novo{
+      padding: 5px;
+      border: 1px solid black;
+      height: 40px;
+      width: 400px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="novo" style="display: flex;">
+  </div>
+
+  <button>Criar</button>
+  <h3>Container 1</h3>
+  <div class="container"></div>
+  <h3>Container 2</h3>
+  <div class="container"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var criarBotao = document.querySelector("button");
+
+      criarBotao.addEventListener("click", function () {
+        var novoElemento = document.createElement("div");
+        novoElemento.classList.add("caixinha");
+
+        var cores = ["corVerde", "corRoxa", "corLaranja", "corVermelha"];
+        var corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+        novoElemento.classList.add(corAleatoria);
+
+        var novoContainer = document.getElementById("novo");
+        novoContainer.appendChild(novoElemento);
+
+        novoElemento.setAttribute("draggable", true);
+        novoElemento.addEventListener("dragstart", function (event) {
+          event.dataTransfer.setData("text/plain", "");
+        });
+      });
+
+      var containers = document.querySelectorAll(".container");
+
+      containers.forEach(function (container) {
+        container.addEventListener("dragover", function (event) {
+          event.preventDefault();
+        });
+
+        container.addEventListener("drop", function (event) {
+          event.preventDefault();
+          var data = event.dataTransfer.getData("text/plain");
+          var elementoArrastado = document.querySelector(".caixinha");
+          if (elementoArrastado) {
+            this.appendChild(elementoArrastado);
+          }
+        });
+      });
+    });
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

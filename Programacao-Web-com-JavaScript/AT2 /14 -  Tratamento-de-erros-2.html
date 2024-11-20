@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+  <h1>Manipulação de String</h1>
+  <input type="text" id="inputString" placeholder="Digite uma string">
+  <button id="processButton">Processar</button>
+  <p id="outputUpperCase"></p>
+  <p id="outputLowerCase"></p>
+  <p id="outputReversed"></p>
+  <p id="outputEncrypted"></p>
+  <script>
+    // O bloco try...catch...finally é usado para manipulação de exceções em JavaScript. Ele permite que você execute código,
+// capture qualquer erro que ocorra durante a execução e execute um bloco de código final, independentemente se ocorreu
+// ou não uma exceção.
+
+// Sintaxe básica:
+// try {
+//     // Código que pode lançar uma exceção
+// } catch (erro) {
+//     // Código que será executado se ocorrer uma exceção
+//     console.log(erro); // Exemplo: logar o erro no console
+// } finally {
+//     // Código que será executado sempre, independentemente de ter ocorrido uma exceção ou não
+//     console.log('Bloco finally executado');
+// }
+
+// O bloco finally é útil para executar código de limpeza ou liberação de recursos, como fechar conexões de banco de dados,
+// liberar memória, etc. Esse bloco será executado sempre, independentemente de ter ocorrido uma exceção no bloco try ou não.
+
+document.getElementById('processButton').addEventListener('click', function() {
+  let inputString = document.getElementById('inputString').value;
+
+  try {
+      let upperCaseString = inputString.toUpperCase();
+
+      let lowerCaseString = inputString.toLowerCase();
+
+      let reversedString = inputString.split('').reverse().join('');
+
+      let encryptedString = inputString.split('').map(char => String.fromCharCode(char.charCodeAt(0) + 7)).join('');
+
+      document.getElementById('outputUpperCase').innerText = `Maiúsculas: ${upperCaseString}`;
+      document.getElementById('outputLowerCase').innerText = `Minúsculas: ${lowerCaseString}`;
+      document.getElementById('outputReversed').innerText = `Invertida: ${reversedString}`;
+      document.getElementById('outputEncrypted').innerText = `Criptografada: ${encryptedString}`;
+  } catch (erro) {
+      alert('Ocorreu um erro durante o processamento da string. Por favor, tente novamente.');
+      console.log(erro);
+  } finally {
+      console.log('Bloco finally executado. Limpeza ou liberação de recursos pode ser feita aqui.');
+  }
+});
+
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

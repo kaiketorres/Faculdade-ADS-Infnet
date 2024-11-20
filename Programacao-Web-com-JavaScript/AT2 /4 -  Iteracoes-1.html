@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+</head>
+
+<body>
+
+  <script>
+    let numeros = [12, 7, 23, 5, 16];
+
+    let soma = 0;
+    let maior = numeros[0];
+    let menor = numeros[0];
+
+    for (let i = 0; i < numeros.length; i++) {
+      soma += numeros[i];
+      if (numeros[i] > maior) {
+        maior = numeros[i];
+      }
+      if (numeros[i] < menor) {
+        menor = numeros[i];
+      }
+    }
+
+    let media = soma / numeros.length;
+
+    console.log("Soma:", soma);
+    console.log("Média:", media);
+    console.log("Maior número:", maior);
+    console.log("Menor número:", menor);
+
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

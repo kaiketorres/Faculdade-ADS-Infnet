@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    table {
+      border-collapse: collapse;
+      text-align: center;
+      width: 100px;
+    }
+
+    .vermelho {
+      background-color: red;
+    }
+
+    .azul {
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <table id="tabela">
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+    </tr>
+    <tr class="azul">
+      <td>João</td>
+      <td>40</td>
+    </tr>
+    <tr class="vermelho">
+      <td>Maria</td>
+      <td>50</td>
+    </tr>
+    <tr class="azul">
+      <td>Ana</td>
+      <td>20</td>
+    </tr>
+    <tr class="vermelho">
+      <td>Pedro</td>
+      <td>10</td>
+    </tr>
+    <tr class="azul">
+      <td>Lúcio</td>
+      <td>25</td>
+    </tr>
+    <tr class="vermelho">
+      <td>Júlia</td>
+      <td>15</td>
+    </tr>
+  </table>
+
+  <script>
+    const azulElements = document.querySelectorAll('.azul');
+
+    const vermelhoElements = document.querySelectorAll('.vermelho');
+
+    azulElements.forEach(element => {
+      element.classList.remove('azul');
+      element.classList.add('vermelho');
+    });
+
+    vermelhoElements.forEach(element => {
+      element.classList.remove('vermelho');
+      element.classList.add('azul');
+    });
+  </script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
