@@ -1,0 +1,12 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|Hobbies|Coding|Jogos|ID|Email|DataDeNascimento|Jogos(Nome, Plataforma)|ano_nascimento
+Clara|26|['Brasília', 'DF']|['Fernanda', 'Lívia']||||65eeb9f213eb41d581b4efd760519562||||1998
+Tiago|28|['Brasília', 'DF']|['Mateus', 'Lívia', 'Aline']||||2d389161d56f4b1dbba0c6f191669426||||1996
+Felipe|27|['Brasília', 'DF']|['Renata', 'Carla']||||31bc3c9017044fd4a6c3af5bae515cc1||||1997
+CamilaCarvalho Dias Ribeiro|25|['Brasília', 'DF']||['cinema', 'ciclismo']|['JavaScript', 'Go', 'Java']||02268bcdd60948278ac8203dc547752b|camilac1@freemail.com|1999-07-08|[['Minecraft', 'PC'], ['Among Us', 'Mobile'], ['Valorant', 'PC'], ['The Witcher 3', 'Xbox One']]|1999
+MarianaRocha Oliveira Dias|2024|['Brasília', 'DF']||[]|['C#', 'Java', 'Go']||5000b5cace2f4885a350755c43531ce1|mariana07@example.com|1992-09-06|[['GTA V', 'PlayStation 4']]|0
+BeatrizDias Ribeiro Lima|45|['Brasília', 'DF']||['natação', 'cozinhar', 'fotografia', 'pintura']|[]||5cf344bda7a74275b7e021e6b1c3b29c||1979-04-04|[]|1979
+RafaelGomes|37|['Brasília', 'DF']||['cinema', 'viagem', 'leitura', 'cozinhar', 'ciclismo']|['Ruby', 'Java', 'C#']||0545c17ebfeb4e6aa1a1392c25f2fc4f|rafaelfwk@webmail.net|1987-08-19|[['Apex Legends', 'PC'], ['GTA V', 'PlayStation 4'], ['Fortnite', 'PlayStation 4'], ['Valorant', 'PC']]|1987
+CamilaSouza|32|['Brasília', 'DF']||['cozinhar', 'pintura']|['C++', 'Ruby', 'Kotlin', 'Java', 'JavaScript']||d5347c7b6a10443b8de63b1733cdcd68|camilawce@webmail.net|1992-09-14|[['Fortnite', 'PlayStation 4'], ['The Witcher 3', 'Xbox One'], ['Valorant', 'PC'], ['Overwatch', 'PC']]|1992
+PedroAraújo Costa|2024|['Brasília', 'DF']||['ciclismo', 'cinema']|['JavaScript', 'PHP', 'Swift']||209c9454dc3b4936a8e933251cb64448||1995-12-16|[['Fortnite', 'PlayStation 4']]|0
+JuliaCarvalho Fernandes Martins|36|['Brasília', 'DF']||[]|['Java']||787e7fbd5993452d9680e34d9fbf0696|juliae@inbox.org|1988-05-02|[['Minecraft', 'PC']]|1988
+BrunoSilva Dias Rocha|47|['Brasília', 'DF']||['cinema', 'natação', 'cozinhar', 'fotografia']|['JavaScript', 'Go', 'Ruby']||2d54c2d4e1bf48ca95e5fe8ec3f2508c|brunoe@randommail.com|1976-12-25|[]|1977

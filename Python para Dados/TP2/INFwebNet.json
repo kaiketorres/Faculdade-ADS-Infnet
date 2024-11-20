@@ -1,0 +1,410 @@
+[
+    {
+        "Nome": "Maria da Silva",
+        "Idade": "45",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": ""
+    },
+    {
+        "Nome": "José Santos",
+        "Idade": "52",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": ""
+    },
+    {
+        "Nome": "Ana Oliveira",
+        "Idade": "28",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": ""
+    },
+    {
+        "Nome": "João Pereira",
+        "Idade": "33",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": ""
+    },
+    {
+        "Nome": "Carlos Sousa",
+        "Idade": "40",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": ""
+    },
+    {
+        "Nome": "João",
+        "Idade": "25",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": [
+            "Ana",
+            "Carlos"
+        ]
+    },
+    {
+        "Nome": "Ana",
+        "Idade": "22",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Fernanda"
+        ]
+    },
+    {
+        "Nome": "Carlos",
+        "Idade": "30",
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Marcos",
+            "Caio"
+        ]
+    },
+    {
+        "Nome": "Fernanda",
+        "Idade": "28",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": [
+            "Ana"
+        ]
+    },
+    {
+        "Nome": "Marcos",
+        "Idade": "27",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Carlos"
+        ]
+    },
+    {
+        "Nome": "Clara",
+        "Idade": "26",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": [
+            "Fernanda",
+            "Lívia"
+        ]
+    },
+    {
+        "Nome": "Lívia",
+        "Idade": "24",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "Clara",
+            "Lucas",
+            "Marcos"
+        ]
+    },
+    {
+        "Nome": "Lucas",
+        "Idade": "31",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": [
+            "Lívia",
+            "Fernando"
+        ]
+    },
+    {
+        "Nome": "Fernando",
+        "Idade": "29",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": [
+            "Lucas",
+            "Aline"
+        ]
+    },
+    {
+        "Nome": "Aline",
+        "Idade": "23",
+        "Localização(Cidade, Estado)": [
+            "Florianópolis",
+            "SC"
+        ],
+        "Amigos(Lista)": [
+            "Fernando",
+            "Caio",
+            "Clara"
+        ]
+    },
+    {
+        "Nome": "Caio",
+        "Idade": "27",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": [
+            "Aline",
+            "Clara"
+        ]
+    },
+    {
+        "Nome": "Sofia",
+        "Idade": "21",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "Rafaela",
+            "Fernanda"
+        ]
+    },
+    {
+        "Nome": "Rafaela",
+        "Idade": "22",
+        "Localização(Cidade, Estado)": [
+            "Recife",
+            "PE"
+        ],
+        "Amigos(Lista)": [
+            "Sofia",
+            "Clara"
+        ]
+    },
+    {
+        "Nome": "Mateus",
+        "Idade": "32",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": [
+            "Caio",
+            "Fernando",
+            "João"
+        ]
+    },
+    {
+        "Nome": "Tiago",
+        "Idade": "28",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": [
+            "Mateus",
+            "Lívia",
+            "Aline"
+        ]
+    },
+    {
+        "Nome": "Paulo",
+        "Idade": "33",
+        "Localização(Cidade, Estado)": "",
+        "Amigos(Lista)": [
+            "Tiago",
+            "Fernanda",
+            "Lucas"
+        ]
+    },
+    {
+        "Nome": "Juliana",
+        "Idade": "25",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "Rafaela",
+            "Sofia",
+            "Marcos"
+        ]
+    },
+    {
+        "Nome": "Pedro",
+        "Idade": "26",
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Aline"
+        ]
+    },
+    {
+        "Nome": "Amanda",
+        "Idade": "24",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": [
+            "Pedro",
+            "Caio",
+            "Lívia"
+        ]
+    },
+    {
+        "Nome": "Bruno",
+        "Idade": "30",
+        "Localização(Cidade, Estado)": [
+            "Cuiabá",
+            "MT"
+        ],
+        "Amigos(Lista)": [
+            "Ana",
+            "Marcos",
+            "Mateus"
+        ]
+    },
+    {
+        "Nome": "Carla",
+        "Idade": "29",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": [
+            "Fernando",
+            "Tiago",
+            "Lucas"
+        ]
+    },
+    {
+        "Nome": "Gabriela",
+        "Idade": "27",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": [
+            "Carla",
+            "Aline",
+            "Rafaela"
+        ]
+    },
+    {
+        "Nome": "Thiago",
+        "Idade": "31",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Amanda",
+            "Lucas",
+            "Clara"
+        ]
+    },
+    {
+        "Nome": "Renata",
+        "Idade": "23",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": [
+            "Clara",
+            "Fernando",
+            "Sofia"
+        ]
+    },
+    {
+        "Nome": "Leonardo",
+        "Idade": "29",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "Renata",
+            "Mateus",
+            "Caio"
+        ]
+    },
+    {
+        "Nome": "Camila",
+        "Idade": "28",
+        "Localização(Cidade, Estado)": [
+            "Niterói",
+            "RJ"
+        ],
+        "Amigos(Lista)": [
+            "Juliana",
+            "Bruno",
+            "Lucas",
+            "Caio"
+        ]
+    },
+    {
+        "Nome": "Felipe",
+        "Idade": "27",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": [
+            "Renata",
+            "Carla"
+        ]
+    },
+    {
+        "Nome": "Mariana",
+        "Idade": "30",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": [
+            "Felipe",
+            "Lívia",
+            "Fernando"
+        ]
+    },
+    {
+        "Nome": "Daniel",
+        "Idade": "25",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": [
+            "Camila",
+            "Paulo",
+            "Amanda"
+        ]
+    }
+]
