@@ -1,0 +1,14 @@
+[
+    {
+        "DepartamentoNome": "RH",
+        "CustoTotal": 130000.0
+    },
+    {
+        "DepartamentoNome": "TI",
+        "CustoTotal": 50000.0
+    },
+    {
+        "DepartamentoNome": "Financeiro",
+        "CustoTotal": 50000.0
+    }
+]
