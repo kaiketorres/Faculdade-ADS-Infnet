@@ -28,17 +28,13 @@ def pegar_ultimo_id():
     return max(tarefa.id for tarefa in lista_tarefas)
 
 class Situacao(Enum):
-    """
-    Status da tarefa. É o que indica se ela tá pendente, em andamento, ou já foi feita.
-    """
+    
     A_Fazer = 1
     Fazendo = 2
     Feito = 3
 
 class Urgencia(Enum):
-    """
-    A prioridade da tarefa. Basicamente, se é algo urgente ou pode esperar.
-    """
+  
     Alta = 1
     Media = 2
     Baixa = 3
