@@ -1,0 +1,14 @@
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /bin/Debug/net9.0/VerificadordeNúmeroParouÍmpar
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /bin/Debug/net9.0/VerificadordeNúmeroParouÍmpar.deps.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /bin/Debug/net9.0/VerificadordeNúmeroParouÍmpar.runtimeconfig.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /bin/Debug/net9.0/VerificadordeNúmeroParouÍmpar.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /bin/Debug/net9.0/VerificadordeNúmeroParouÍmpar.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /obj/Debug/net9.0/VerificadordeNúmeroParouÍmpar.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /obj/Debug/net9.0/VerificadordeNúmeroParouÍmpar.AssemblyInfoInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /obj/Debug/net9.0/VerificadordeNúmeroParouÍmpar.AssemblyInfo.cs
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /obj/Debug/net9.0/VerificadordeNúmeroParouÍmpar.csproj.CoreCompileInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /obj/Debug/net9.0/VerificadordeNúmeroParouÍmpar.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /obj/Debug/net9.0/refint/VerificadordeNúmeroParouÍmpar.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /obj/Debug/net9.0/VerificadordeNúmeroParouÍmpar.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /obj/Debug/net9.0/VerificadordeNúmeroParouÍmpar.genruntimeconfig.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/VerificadordeNúmeroParouÍmpar /obj/Debug/net9.0/ref/VerificadordeNúmeroParouÍmpar.dll

@@ -1,0 +1,14 @@
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/bin/Debug/net9.0/TabuadaInterativa
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/bin/Debug/net9.0/TabuadaInterativa.deps.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/bin/Debug/net9.0/TabuadaInterativa.runtimeconfig.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/bin/Debug/net9.0/TabuadaInterativa.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/bin/Debug/net9.0/TabuadaInterativa.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/obj/Debug/net9.0/TabuadaInterativa.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/obj/Debug/net9.0/TabuadaInterativa.AssemblyInfoInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/obj/Debug/net9.0/TabuadaInterativa.AssemblyInfo.cs
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/obj/Debug/net9.0/TabuadaInterativa.csproj.CoreCompileInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/obj/Debug/net9.0/TabuadaInterativa.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/obj/Debug/net9.0/refint/TabuadaInterativa.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/obj/Debug/net9.0/TabuadaInterativa.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/obj/Debug/net9.0/TabuadaInterativa.genruntimeconfig.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/TabuadaInterativa/obj/Debug/net9.0/ref/TabuadaInterativa.dll

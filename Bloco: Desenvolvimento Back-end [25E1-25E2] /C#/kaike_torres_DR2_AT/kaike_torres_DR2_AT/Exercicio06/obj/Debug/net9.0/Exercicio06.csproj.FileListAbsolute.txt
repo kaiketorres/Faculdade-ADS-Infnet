@@ -1,0 +1,14 @@
+/home/kaike/RiderProjects/Exercício01/Exercicio06/bin/Debug/net9.0/Exercicio06
+/home/kaike/RiderProjects/Exercício01/Exercicio06/bin/Debug/net9.0/Exercicio06.deps.json
+/home/kaike/RiderProjects/Exercício01/Exercicio06/bin/Debug/net9.0/Exercicio06.runtimeconfig.json
+/home/kaike/RiderProjects/Exercício01/Exercicio06/bin/Debug/net9.0/Exercicio06.dll
+/home/kaike/RiderProjects/Exercício01/Exercicio06/bin/Debug/net9.0/Exercicio06.pdb
+/home/kaike/RiderProjects/Exercício01/Exercicio06/obj/Debug/net9.0/Exercicio06.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaike/RiderProjects/Exercício01/Exercicio06/obj/Debug/net9.0/Exercicio06.AssemblyInfoInputs.cache
+/home/kaike/RiderProjects/Exercício01/Exercicio06/obj/Debug/net9.0/Exercicio06.AssemblyInfo.cs
+/home/kaike/RiderProjects/Exercício01/Exercicio06/obj/Debug/net9.0/Exercicio06.csproj.CoreCompileInputs.cache
+/home/kaike/RiderProjects/Exercício01/Exercicio06/obj/Debug/net9.0/Exercicio06.dll
+/home/kaike/RiderProjects/Exercício01/Exercicio06/obj/Debug/net9.0/refint/Exercicio06.dll
+/home/kaike/RiderProjects/Exercício01/Exercicio06/obj/Debug/net9.0/Exercicio06.pdb
+/home/kaike/RiderProjects/Exercício01/Exercicio06/obj/Debug/net9.0/Exercicio06.genruntimeconfig.cache
+/home/kaike/RiderProjects/Exercício01/Exercicio06/obj/Debug/net9.0/ref/Exercicio06.dll

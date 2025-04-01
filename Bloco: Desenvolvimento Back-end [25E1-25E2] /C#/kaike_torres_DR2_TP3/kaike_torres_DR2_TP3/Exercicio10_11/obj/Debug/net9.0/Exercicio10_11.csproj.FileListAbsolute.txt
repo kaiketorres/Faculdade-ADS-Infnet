@@ -1,0 +1,14 @@
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/bin/Debug/net9.0/Exercicio10_11
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/bin/Debug/net9.0/Exercicio10_11.deps.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/bin/Debug/net9.0/Exercicio10_11.runtimeconfig.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/bin/Debug/net9.0/Exercicio10_11.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/bin/Debug/net9.0/Exercicio10_11.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/obj/Debug/net9.0/Exercicio10_11.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/obj/Debug/net9.0/Exercicio10_11.AssemblyInfoInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/obj/Debug/net9.0/Exercicio10_11.AssemblyInfo.cs
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/obj/Debug/net9.0/Exercicio10_11.csproj.CoreCompileInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/obj/Debug/net9.0/Exercicio10_11.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/obj/Debug/net9.0/refint/Exercicio10_11.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/obj/Debug/net9.0/Exercicio10_11.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/obj/Debug/net9.0/Exercicio10_11.genruntimeconfig.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP3/Exercicio10_11/obj/Debug/net9.0/ref/Exercicio10_11.dll

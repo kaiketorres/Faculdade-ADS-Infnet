@@ -1,0 +1,14 @@
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/bin/Debug/net9.0/CalculadoradeSalário Líquido
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/bin/Debug/net9.0/CalculadoradeSalário Líquido.deps.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/bin/Debug/net9.0/CalculadoradeSalário Líquido.runtimeconfig.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/bin/Debug/net9.0/CalculadoradeSalário Líquido.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/bin/Debug/net9.0/CalculadoradeSalário Líquido.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/obj/Debug/net9.0/CalculadoradeSalário Líquido.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/obj/Debug/net9.0/CalculadoradeSalário Líquido.AssemblyInfoInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/obj/Debug/net9.0/CalculadoradeSalário Líquido.AssemblyInfo.cs
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/obj/Debug/net9.0/CalculadoradeSalário Líquido.csproj.CoreCompileInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/obj/Debug/net9.0/CalculadoradeSalário Líquido.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/obj/Debug/net9.0/refint/CalculadoradeSalário Líquido.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/obj/Debug/net9.0/CalculadoradeSalário Líquido.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/obj/Debug/net9.0/CalculadoradeSalário Líquido.genruntimeconfig.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/CalculadoradeSalário Líquido/obj/Debug/net9.0/ref/CalculadoradeSalário Líquido.dll
