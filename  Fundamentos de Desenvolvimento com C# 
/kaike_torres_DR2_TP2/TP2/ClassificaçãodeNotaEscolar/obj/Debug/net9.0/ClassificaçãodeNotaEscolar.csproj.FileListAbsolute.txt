@@ -1,0 +1,14 @@
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/bin/Debug/net9.0/ClassificaçãodeNotaEscolar
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/bin/Debug/net9.0/ClassificaçãodeNotaEscolar.deps.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/bin/Debug/net9.0/ClassificaçãodeNotaEscolar.runtimeconfig.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/bin/Debug/net9.0/ClassificaçãodeNotaEscolar.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/bin/Debug/net9.0/ClassificaçãodeNotaEscolar.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/obj/Debug/net9.0/ClassificaçãodeNotaEscolar.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/obj/Debug/net9.0/ClassificaçãodeNotaEscolar.AssemblyInfoInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/obj/Debug/net9.0/ClassificaçãodeNotaEscolar.AssemblyInfo.cs
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/obj/Debug/net9.0/ClassificaçãodeNotaEscolar.csproj.CoreCompileInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/obj/Debug/net9.0/ClassificaçãodeNotaEscolar.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/obj/Debug/net9.0/refint/ClassificaçãodeNotaEscolar.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/obj/Debug/net9.0/ClassificaçãodeNotaEscolar.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/obj/Debug/net9.0/ClassificaçãodeNotaEscolar.genruntimeconfig.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/ClassificaçãodeNotaEscolar/obj/Debug/net9.0/ref/ClassificaçãodeNotaEscolar.dll

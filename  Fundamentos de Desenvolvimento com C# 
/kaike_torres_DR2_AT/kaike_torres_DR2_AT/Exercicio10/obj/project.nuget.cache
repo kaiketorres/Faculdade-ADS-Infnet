@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vD/NGCU/B4Q=",
+  "success": true,
+  "projectFilePath": "/home/kaike/RiderProjects/Exercício01/Exercicio10/Exercicio10.csproj",
+  "expectedPackageFiles": [
+    "/home/kaike/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.3/microsoft.aspnetcore.app.ref.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

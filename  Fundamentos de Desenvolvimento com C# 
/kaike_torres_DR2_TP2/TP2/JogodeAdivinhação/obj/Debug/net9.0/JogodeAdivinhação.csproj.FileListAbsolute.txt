@@ -1,0 +1,14 @@
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/bin/Debug/net9.0/JogodeAdivinhação
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/bin/Debug/net9.0/JogodeAdivinhação.deps.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/bin/Debug/net9.0/JogodeAdivinhação.runtimeconfig.json
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/bin/Debug/net9.0/JogodeAdivinhação.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/bin/Debug/net9.0/JogodeAdivinhação.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/obj/Debug/net9.0/JogodeAdivinhação.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/obj/Debug/net9.0/JogodeAdivinhação.AssemblyInfoInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/obj/Debug/net9.0/JogodeAdivinhação.AssemblyInfo.cs
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/obj/Debug/net9.0/JogodeAdivinhação.csproj.CoreCompileInputs.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/obj/Debug/net9.0/JogodeAdivinhação.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/obj/Debug/net9.0/refint/JogodeAdivinhação.dll
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/obj/Debug/net9.0/JogodeAdivinhação.pdb
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/obj/Debug/net9.0/JogodeAdivinhação.genruntimeconfig.cache
+/home/kaike/RiderProjects/kaike_torres_DR2_TP2/JogodeAdivinhação/obj/Debug/net9.0/ref/JogodeAdivinhação.dll
