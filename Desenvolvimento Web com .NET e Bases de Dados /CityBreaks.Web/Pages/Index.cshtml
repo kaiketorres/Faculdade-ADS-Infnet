@@ -1,0 +1,53 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindo ao CityBreaks!</h1>
+    <p>Explore as propriedades turísticas por cidade.</p>
+</div>
+
+<div class="container">
+    <h2>Cidades e Propriedades</h2>
+    
+    <p>
+        <a asp-page="/Property/Create" class="btn btn-success">Cadastrar Nova Propriedade</a>
+        <a asp-page="/Search/FilterProperties" class="btn btn-primary ms-2">Buscar Propriedades</a> 
+    </p>
+    
+    @if (Model.Cities != null && Model.Cities.Any())
+    {
+        @foreach (var city in Model.Cities)
+        {
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h3><a asp-page="/City/Details" asp-route-name="@city.Name">@city.Name</a>, @city.Country.CountryName</h3>
+                </div>
+                <div class="card-body">
+                    <h4>Propriedades disponíveis em @city.Name:</h4>
+                    @if (city.Properties != null && city.Properties.Any())
+                    {
+                        <ul class="list-group">
+                            @foreach (var property in city.Properties)
+                            {
+                                <li class="list-group-item">
+                                    **@property.Name** - R$ @property.PricePerNight.ToString("F2") por noite
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p>Nenhuma propriedade cadastrada para esta cidade.</p>
+                    }
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Nenhuma cidade encontrada no banco de dados.</p>
+    }
+</div>

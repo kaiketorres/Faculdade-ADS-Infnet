@@ -1,0 +1,80 @@
+@page
+@model CityBreaks.Web.Pages.Search.FilterPropertiesModel
+
+@{
+    ViewData["Title"] = "Buscar Propriedades";
+}
+
+<h1>Buscar Propriedades</h1>
+
+<form method="get" class="mb-4"> <div class="row g-3 align-items-end">
+        <div class="col-md-3">
+            <label asp-for="MinPrice" class="form-label"></label>
+            <input asp-for="MinPrice" class="form-control" type="number" step="0.01" />
+        </div>
+        <div class="col-md-3">
+            <label asp-for="MaxPrice" class="form-label"></label>
+            <input asp-for="MaxPrice" class="form-control" type="number" step="0.01" />
+        </div>
+        <div class="col-md-3">
+            <label asp-for="CityName" class="form-label"></label>
+            <input asp-for="CityName" class="form-control" placeholder="Ex: London" />
+            @* Ou usar um dropdown:
+            <select asp-for="CityName" asp-items="Model.CitiesSelectList" class="form-control">
+                <option value="">-- Todas as Cidades --</option>
+            </select>
+            *@
+        </div>
+        <div class="col-md-3">
+            <label asp-for="PropertyName" class="form-label"></label>
+            <input asp-for="PropertyName" class="form-control" placeholder="Ex: Apartamento" />
+        </div>
+        <div class="col-md-auto">
+            <button type="submit" class="btn btn-primary">Aplicar Filtros</button>
+            <a asp-page="/Search/FilterProperties" class="btn btn-secondary">Limpar Filtros</a>
+        </div>
+    </div>
+</form>
+
+<hr />
+
+<h2>Resultados da Busca</h2>
+
+@if (Model.MinPrice.HasValue || Model.MaxPrice.HasValue || !string.IsNullOrWhiteSpace(Model.CityName) || !string.IsNullOrWhiteSpace(Model.PropertyName))
+{
+    <p>
+        **Filtros Aplicados:**
+        @if (Model.MinPrice.HasValue) { <span>Preço Mínimo: R$ @Model.MinPrice.Value.ToString("F2"); </span> }
+        @if (Model.MaxPrice.HasValue) { <span>Preço Máximo: R$ @Model.MaxPrice.Value.ToString("F2"); </span> }
+        @if (!string.IsNullOrWhiteSpace(Model.CityName)) { <span>Cidade: @Model.CityName; </span> }
+        @if (!string.IsNullOrWhiteSpace(Model.PropertyName)) { <span>Nome da Propriedade: @Model.PropertyName; </span> }
+    </p>
+}
+
+@if (Model.FilteredProperties.Any())
+{
+    <div class="row">
+        @foreach (var property in Model.FilteredProperties)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@property.Name</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@property.City?.Name, @property.City?.Country?.CountryName</h6>
+                        <p class="card-text">Preço por noite: **R$ @property.PricePerNight.ToString("F2")**</p>
+                        <a asp-page="/Property/Details" asp-route-id="@property.Id" class="btn btn-sm btn-outline-primary">Ver Detalhes</a>
+                        <a asp-page="/Property/Edit" asp-route-id="@property.Id" class="btn btn-sm btn-info mt-2">Editar</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>Nenhuma propriedade encontrada com os filtros aplicados.</p>
+}
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
