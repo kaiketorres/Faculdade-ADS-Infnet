@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AgenciaTurismo
+build_property.RootNamespace = AgenciaTurismo
+build_property.ProjectDir = /home/kaike/Área de trabalho/Proejto c#/AgenciaTurismo/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/kaike/Área de trabalho/Proejto c#/AgenciaTurismo
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xpZW50ZXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Desconto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVzY29udG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Pacotes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFjb3Rlcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Pacotes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFjb3Rlcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Pacotes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFjb3Rlcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Pacotes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFjb3Rlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/ViewNotes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmlld05vdGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kaike/Área de trabalho/Proejto c\#/AgenciaTurismo/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tj6gzonyz3

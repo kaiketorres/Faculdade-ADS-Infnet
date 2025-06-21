@@ -1,0 +1,17 @@
+@page
+@model AgenciaTurismo.Pages.Account.LogoutModel
+@{
+    ViewData["Title"] = "Logout";
+    Layout = null; // Não usar um layout para esta página simples de post
+}
+
+<form method="post">
+    <button type="submit" class="hidden">Logout</button> @* Botão oculto, usado via JavaScript se necessário *@
+</form>
+
+<script>
+    // Envia o formulário de logout automaticamente ao carregar a página
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('form').submit();
+    });
+</script>

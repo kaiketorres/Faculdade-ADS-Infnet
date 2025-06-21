@@ -1,0 +1,65 @@
+@page
+@model AgenciaTurismo.Pages.ViewNotesModel
+@{
+    ViewData["Title"] = "Sistema de Notas";
+}
+
+<div class="container mx-auto p-4 max-w-2xl bg-white rounded-lg shadow-md mt-8">
+    <h1 class="text-2xl font-bold text-gray-800 mb-6 text-center">@ViewData["Title"]</h1>
+
+    @if (!string.IsNullOrEmpty(Model.StatusMessage))
+    {
+        <div class="p-3 mb-4 text-center @(Model.StatusMessage.Contains("sucesso") ? "bg-green-100 text-green-800 border border-green-300" : "bg-red-100 text-red-800 border border-red-300") rounded-md">
+            @Model.StatusMessage
+        </div>
+    }
+
+    <!-- Seção para Criar Nova Nota -->
+    <div class="mt-4 p-6 bg-blue-50 rounded-lg border border-blue-200">
+        <h2 class="text-xl font-semibold text-blue-700 mb-4">Criar Nova Anotação</h2>
+        <form method="post" asp-page-handler="SaveNote" class="space-y-4">
+            <div class="flex flex-col">
+                <label for="NoteContent" class="text-gray-700 font-medium mb-1">Conteúdo da Nota:</label>
+                <textarea asp-for="NoteContent" rows="5" class="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Escreva sua anotação aqui..."></textarea>
+                <span asp-validation-for="NoteContent" class="text-red-600 text-sm mt-1"></span>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-200 ease-in-out">
+                Salvar Nota
+            </button>
+        </form>
+    </div>
+
+    <!-- Seção para Listar e Visualizar Notas -->
+    <div class="mt-8 p-6 bg-gray-50 rounded-lg border border-gray-200">
+        <h2 class="text-xl font-semibold text-gray-700 mb-4">Notas Disponíveis</h2>
+        @if (Model.AvailableNotes != null && Model.AvailableNotes.Any())
+        {
+            <ul class="list-disc list-inside text-left text-gray-700 space-y-2">
+                @foreach (var note in Model.AvailableNotes)
+                {
+                    <li>
+                        <a asp-page="/ViewNotes" asp-route-SelectedFileName="@note" class="text-blue-600 hover:underline">@note</a>
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p class="text-gray-600">Nenhuma nota disponível ainda.</p>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.FileContent))
+        {
+            <div class="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200 text-left">
+                <h3 class="text-lg font-semibold text-yellow-800 mb-2">Conteúdo de "@Model.SelectedFileName":</h3>
+                <pre class="whitespace-pre-wrap font-mono text-gray-800 bg-gray-100 p-3 rounded-md overflow-auto">@Model.FileContent</pre>
+            </div>
+        }
+    </div>
+
+    <div class="mt-8 text-center">
+        <a asp-page="/Index" class="inline-block bg-gray-200 text-gray-800 py-2 px-4 rounded-md hover:bg-gray-300 transition duration-200 ease-in-out">
+            Voltar para a Home
+        </a>
+    </div>
+</div>

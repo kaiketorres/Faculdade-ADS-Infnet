@@ -1,0 +1,63 @@
+@page
+@model AgenciaTurismo.Pages.Pacotes.DeleteModel
+@{
+    ViewData["Title"] = "Excluir Pacote";
+}
+
+<div class="container mx-auto p-4 max-w-lg bg-white rounded-lg shadow-md mt-8">
+    <h1 class="text-2xl font-bold text-gray-800 mb-4 text-center">Excluir Pacote Turístico</h1>
+    <h3 class="text-xl font-semibold text-red-600 mb-6 text-center">Tem certeza de que deseja excluir isso? (Exclusão Lógica)</h3>
+
+    @if (Model.PacoteTuristico != null)
+    {
+        <dl class="grid grid-cols-2 gap-x-4 gap-y-2 text-gray-700">
+            <dt class="font-semibold text-right">@Html.DisplayNameFor(model => model.PacoteTuristico!.Titulo)</dt>
+            <dd>@Html.DisplayFor(model => model.PacoteTuristico!.Titulo)</dd>
+
+            <dt class="font-semibold text-right">@Html.DisplayNameFor(model => model.PacoteTuristico!.DataInicio)</dt>
+            <dd>@Model.PacoteTuristico!.DataInicio.ToShortDateString()</dd>
+
+            <dt class="font-semibold text-right">@Html.DisplayNameFor(model => model.PacoteTuristico!.DataFim)</dt>
+            <dd>@Model.PacoteTuristico!.DataFim.ToShortDateString()</dd>
+
+            <dt class="font-semibold text-right">@Html.DisplayNameFor(model => model.PacoteTuristico!.CapacidadeMaxima)</dt>
+            <dd>@Html.DisplayFor(model => model.PacoteTuristico!.CapacidadeMaxima)</dd>
+
+            <dt class="font-semibold text-right">@Html.DisplayNameFor(model => model.PacoteTuristico!.Preco)</dt>
+            <dd>@Model.PacoteTuristico!.Preco.ToString("C")</dd>
+
+            @* Exibindo as Cidades de Destino para confirmação *@
+            @if (Model.PacoteTuristico!.CidadesDestino != null && Model.PacoteTuristico.CidadesDestino.Any())
+            {
+                <dt class="font-semibold text-right col-span-2 mt-4">Cidades de Destino:</dt>
+                <dd class="col-span-2">
+                    <ul class="list-disc list-inside text-left ml-4">
+                        @foreach (var cidade in Model.PacoteTuristico.CidadesDestino)
+                        {
+                            <li>@cidade.Nome</li>
+                        }
+                    </ul>
+                </dd>
+            }
+        </dl>
+
+        <form method="post" class="mt-6 text-center">
+            <input type="hidden" asp-for="PacoteTuristico!.Id" /> @* Adiciona ! aqui também *@
+            <button type="submit" class="bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition duration-200 ease-in-out mr-2">
+                Excluir
+            </button>
+            <a asp-page="./Index" class="inline-block bg-gray-200 text-gray-800 py-2 px-4 rounded-md hover:bg-gray-300 transition duration-200 ease-in-out">
+                Cancelar
+            </a>
+        </form>
+    }
+    else
+    {
+        <p class="text-center text-red-600 font-semibold">Pacote turístico não encontrado.</p>
+        <div class="mt-4 text-center">
+            <a asp-page="./Index" class="inline-block bg-gray-200 text-gray-800 py-2 px-4 rounded-md hover:bg-gray-300 transition duration-200 ease-in-out">
+                Voltar para a Lista
+            </a>
+        </div>
+    }
+</div>
