@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using AgenciaTurismo.Models; // Certifique-se de incluir esta linha para suas entidades
+using AgenciaTurismo.Models; 
 
 namespace AgenciaTurismo.Data
 {

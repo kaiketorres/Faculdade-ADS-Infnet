@@ -3084,11 +3084,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kaike/Área de trabalho/Proejto c#/AgenciaTurismo/AgenciaTurismo.csproj",
+      "projectUniqueName": "/home/kaike/Documentos/GitHub/Faculdade-ADS-Infnet/Desenvolvimento Web com .NET e Bases de Dados /AgenciaTurismo/AgenciaTurismo.csproj",
       "projectName": "AgenciaTurismo",
-      "projectPath": "/home/kaike/Área de trabalho/Proejto c#/AgenciaTurismo/AgenciaTurismo.csproj",
+      "projectPath": "/home/kaike/Documentos/GitHub/Faculdade-ADS-Infnet/Desenvolvimento Web com .NET e Bases de Dados /AgenciaTurismo/AgenciaTurismo.csproj",
       "packagesPath": "/home/kaike/.nuget/packages/",
-      "outputPath": "/home/kaike/Área de trabalho/Proejto c#/AgenciaTurismo/obj/",
+      "outputPath": "/home/kaike/Documentos/GitHub/Faculdade-ADS-Infnet/Desenvolvimento Web com .NET e Bases de Dados /AgenciaTurismo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kaike/.nuget/NuGet/NuGet.Config"

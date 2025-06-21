@@ -1,9 +1,6 @@
-using System;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using AgenciaTurismo.Data;
 using AgenciaTurismo.Models;
 using Microsoft.AspNetCore.Authorization; // Adicionado para [Authorize]
 

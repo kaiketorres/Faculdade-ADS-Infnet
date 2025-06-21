@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using AgenciaTurismo.Data; // Para acessar o DbContext
-using AgenciaTurismo.Models; // Para acessar a entidade PacoteTuristico
-using System.Threading.Tasks;
+using AgenciaTurismo.Data; 
+using AgenciaTurismo.Models; 
+
 
 namespace AgenciaTurismo.Pages.Pacotes
 {

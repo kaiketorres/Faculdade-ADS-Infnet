@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace AgenciaTurismo.Models
 {
     public class CidadeDestino

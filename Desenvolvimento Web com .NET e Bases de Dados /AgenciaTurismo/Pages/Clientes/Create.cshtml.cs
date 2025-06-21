@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using AgenciaTurismo.Data; // Para acessar o DbContext
 using AgenciaTurismo.Models; // Para acessar a entidade Cliente
-using System.Threading.Tasks; // Para operações assíncronas
+
 
 namespace AgenciaTurismo.Pages.Clientes
 {

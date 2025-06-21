@@ -1,9 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System;
-using System.IO;
-using System.Collections.Generic;
-using AgenciaTurismo.Models; // Importar Models para usar PacoteTuristico e Reserva
+using AgenciaTurismo.Models; 
 
 namespace AgenciaTurismo.Pages
 {
@@ -18,35 +15,32 @@ namespace AgenciaTurismo.Pages
             _logger = logger;
         }
 
-        // Propriedades para logs (dos itens anteriores)
+      
         public string LatestLogMessage { get; set; } = string.Empty;
         public List<string> AllMemoryLogs => _memoryLogs;
-        public Action<string>? LogOperation; // Correção CS8618: Marcado como anulável
+        public Action<string>? LogOperation; 
 
-        // Propriedades para cálculo com Func (dos itens anteriores)
+      
         [BindProperty]
         public int NumeroDiarias { get; set; }
         [BindProperty]
         public decimal ValorDiaria { get; set; }
         public decimal ValorTotalReserva { get; set; }
 
-        // --- Propriedades para a demonstração do Evento ---
+       
         [BindProperty]
-        public int PacoteIdParaSimularReserva { get; set; } = 1; // Para selecionar um pacote
-        [BindProperty]
-        public int NumeroReservasSimuladas { get; set; } = 1; // Quantas reservas adicionar
+        public int PacoteIdParaSimularReserva { get; set; } = 1; 
+        public int NumeroReservasSimuladas { get; set; } = 1; 
 
         public string CapacidadeStatusMessage { get; set; } = string.Empty;
 
-        // Simulação de um pacote turístico em memória para demonstração do evento
-        // Em uma aplicação real, isso viria do banco de dados via EF Core.
-        // Correção CS0122: Alterado de private para public static
+      
         public static PacoteTuristico _simulatedPackage = new PacoteTuristico
         {
             Id = 1,
             Titulo = "Aventura na Amazônia",
-            CapacidadeMaxima = 3, // Capacidade baixa para facilitar a demonstração
-            DataInicio = DateTime.Today.AddDays(30), // Data futura
+            CapacidadeMaxima = 3, 
+            DataInicio = DateTime.Today.AddDays(30), 
             Preco = 2500.00m
         };
 
@@ -64,10 +58,10 @@ namespace AgenciaTurismo.Pages
             string logMessage = $"Operação simulada: Criação de Reserva em {DateTime.Now}";
             LogOperation += LogToConsole;
             LogOperation += LogToFile;
-            LogToMemory($"[MEMORY LOG] {DateTime.Now}: {logMessage}"); // Adicionar diretamente
+            LogToMemory($"[MEMORY LOG] {DateTime.Now}: {logMessage}"); 
             LogOperation?.Invoke(logMessage);
             LatestLogMessage = $"Log Registrado: {logMessage}";
-            LogOperation = null; // Limpa o delegate
+            LogOperation = null; 
         }
 
         public void OnPostCalculateReservationTotal()
@@ -80,15 +74,15 @@ namespace AgenciaTurismo.Pages
 
         public void OnPostSimulateCapacityCheck()
         {
-            // 1. Assinar o evento CapacityReached do pacote simulado
+            
             _simulatedPackage.CapacityReached += OnCapacityReached;
 
-            // 2. Simular a adição de reservas
+           
             for (int i = 0; i < NumeroReservasSimuladas; i++)
             {
                 _simulatedPackage.AdicionarReservaSimulada(new Reserva
                 {
-                    ClienteId = 99, // Cliente fictício
+                    ClienteId = 99, 
                     PacoteTuristicoId = _simulatedPackage.Id,
                     DataReserva = DateTime.Now
                 });
@@ -97,21 +91,20 @@ namespace AgenciaTurismo.Pages
 
             CapacidadeStatusMessage = $"Pacote '{_simulatedPackage.Titulo}' - Capacidade: {_simulatedPackage.ParticipantesAtuais}/{_simulatedPackage.CapacidadeMaxima}";
 
-            // 3. Remover a assinatura do evento (boa prática para evitar memory leaks)
+           
             _simulatedPackage.CapacityReached -= OnCapacityReached;
         }
 
-        // 4. Método manipulador do evento (o delegate que será chamado)
+        
         private void OnCapacityReached(PacoteTuristico pacote)
         {
             string alertMessage = $"ALERTA DE CAPACIDADE! O pacote '{pacote.Titulo}' ({pacote.Id}) atingiu ou excedeu sua capacidade máxima de {pacote.CapacidadeMaxima} participantes.";
             _logger.LogWarning($"[EVENTO DE CAPACIDADE] {alertMessage}");
-            Console.WriteLine($"[EVENTO DE CAPACIDADE] {alertMessage}"); // Para ver no terminal
-            CapacidadeStatusMessage = alertMessage; // Atualiza a mensagem na página
+            Console.WriteLine($"[EVENTO DE CAPACIDADE] {alertMessage}"); 
+            CapacidadeStatusMessage = alertMessage; 
         }
 
-        // Métodos de log (dos itens anteriores)
-        private void LogToConsole(string message)
+                private void LogToConsole(string message)
         {
             _logger.LogInformation($"[CONSOLE LOG] {message}");
             Console.WriteLine($"[CONSOLE LOG] {message}");
